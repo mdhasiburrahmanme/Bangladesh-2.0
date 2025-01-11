@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* font-family: work sans, sans serif; */
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Nav Bar Design */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 50px;
+    background-color: #3498db;
+    font-family: work sans, sans serif;
+}
+
+.logo{
+    font-family: work sans, sans serif;
+    color: Green;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.logo span{
+    color: red;
+    font-size: 30px;
+}
+
+
+.logo:hover{
+    text-shadow: 0 0 8px #bdc3c7;
+    cursor: pointer;
+}
+
+.navLink{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* margin: 0 50px; */
+}
+
+.navLink li a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.navLink li a:hover{
+    box-shadow: 0 0 8px yellow;
+    transition: 0.3s;
+}
+
+.btn{
+    /* padding: 20px 10px; */
+    border: none;
+    background: #FFC312;
+    border-radius: 4px;
+    color: #3498db;
+    font-weight: 900;
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 0 8px #bdc3c7;
+    transition: 0.3s;
+}
+
+/* Main part */
+
+main{
+    background: white;
+    height: 600px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.contMain{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 600px; */
+    width: 60%;
+    background-color: #C6E4D6;
+    padding: 45px;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.leftCon{
+    color: black;
+    width: 60%;
+}
+
+.subtitle{
+    font-size: 18px;
+    font-family: work sans, sans serif;
+}
+
+.subtitle2{
+    font-size: 24px;
+    color: green;
+    font-family: work sans, sans serif;
+}
+
+.subtitle2 span{
+    color: red;
+    font-size: 30px;
+}
+
+.title{
+    font-size: 48px;
+    font-family: Fira Sans Condensed, work sans, sans serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.cv{
+    background-color: #3498db;
+    color: white;
+}
+
+.mainImg{
+    height: 250px;
+}
