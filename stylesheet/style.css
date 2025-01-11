@@ -217,3 +217,32 @@ main{
 .piller img{
 
 }
+
+/* Opinion part */
+
+.opinion{
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.opinionSec{
+    margin-top: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+
+.QN{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #C6E4D6;
+    border: 1px solid #b2bec3;
+    border-radius: 3px;
+}
