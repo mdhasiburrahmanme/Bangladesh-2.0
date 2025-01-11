@@ -227,12 +227,12 @@ main{
 }
 
 .opinionSec{
-    margin-top: 200px;
+    margin-top: 250px;
     width: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 300px;
+    height: ;
     width: 100%;
 }
 
@@ -245,4 +245,18 @@ main{
     background-color: #C6E4D6;
     border: 1px solid #b2bec3;
     border-radius: 3px;
+}
+
+.option1{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+select{
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #b2bec3;
 }
