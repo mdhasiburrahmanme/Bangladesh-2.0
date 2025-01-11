@@ -414,6 +414,10 @@ label button{
     background: gray;
 }
 
+label button:hover{
+    box-shadow: 0 0 8px black;
+}
+
 footer{
     width: 100%;
     height: 200px;
