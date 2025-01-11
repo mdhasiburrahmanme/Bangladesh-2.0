@@ -99,7 +99,7 @@ main{
 .container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     /* height: 600px; */
     width: 70%;
     background-color: #C6E4D6;
@@ -157,10 +157,20 @@ main{
     justify-content: center;
 }
 
+.visonSec{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .pillar{
     align-items: center;
     justify-content: center;
     width: 70%;
+    position: relative;
 }
 
 .cardArea{
@@ -179,4 +189,24 @@ main{
 
 .card img{
     width: 40px;
+}
+
+.secondCard{
+    background-color: #C6E4D6;
+    padding: 20px;
+    border-radius: 10px;
+    width: 27%;
+}
+
+
+/* .qoute{
+    /* position: absolute; */
+    margin: 50px 0;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 -20px;
+} */
+
+.piller img{
+
 }
