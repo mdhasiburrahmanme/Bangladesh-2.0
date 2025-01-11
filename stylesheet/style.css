@@ -101,11 +101,13 @@ main{
     align-items: center;
     justify-content: center;
     /* height: 600px; */
-    width: 60%;
+    width: 70%;
     background-color: #C6E4D6;
+    margin-top: 50px;
     padding: 45px;
     border-radius: 15px;
     justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
 .leftCon{
@@ -136,11 +138,45 @@ main{
     margin-bottom: 20px;
 }
 
-.cv{
-    background-color: #3498db;
+.EBd{
+    background-color: green;
     color: white;
 }
 
 .mainImg{
     height: 250px;
+}
+
+/* Pillar part */
+
+.pillarSec {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.pillar{
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.cardArea{
+    margin-top: 20px;
+    /* background-color: #C6E4D6; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: #C6E4D6;
+    padding: 20px;
+    border-radius: 10px;
+    width: 18%;
+}
+
+.card img{
+    width: 40px;
 }
