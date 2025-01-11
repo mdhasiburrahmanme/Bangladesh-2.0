@@ -381,6 +381,7 @@ select{
 
 .sub{
     display: flex;
+    flex-direction: column;
     width: 70%;
     justify-content: center;
     align-items: center;
@@ -388,6 +389,7 @@ select{
     height: 300px;
     border-radius: 10px;
     margin: 50px;
+    gap: 20px;
 }
 
 label{
@@ -397,6 +399,8 @@ label{
 input{
     border: none;
     padding: 15px;
+    padding-left: -1500px;
+    padding-right: 250px;
     border-radius: 10px 0 0 10px;
 }
 
