@@ -399,7 +399,7 @@ label{
 input{
     border: none;
     padding: 15px;
-    padding-left: -1500px;
+    margin-left: -90px;
     padding-right: 250px;
     border-radius: 10px 0 0 10px;
 }
